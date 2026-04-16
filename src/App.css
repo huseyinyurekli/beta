@@ -1,3 +1,35 @@
+@font-face {
+  font-family: "Axiforma";
+  src: url("./assets/fonts/Axiforma-Book.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Axiforma";
+  src: url("./assets/fonts/Axiforma Regular.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Axiforma";
+  src: url("./assets/fonts/Axiforma-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Axiforma";
+  src: url("./assets/fonts/Axiforma Bold.otf") format("opentype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
 :root {
   --bg: #07090d;
   --panel: rgba(18, 22, 30, 0.78);
@@ -10,6 +42,7 @@
   --accent-soft: rgba(142, 107, 255, 0.18);
   --warm: #d9b86c;
   --shadow: 0 24px 80px rgba(0, 0, 0, 0.45);
+  --font-main: "Axiforma", "Avenir Next", "Helvetica Neue", sans-serif;
 }
 
 body {
@@ -19,6 +52,7 @@ body {
     radial-gradient(circle at bottom right, rgba(240, 146, 45, 0.08), transparent 22%),
     var(--bg);
   color: var(--text);
+  font-family: var(--font-main);
 }
 
 a {

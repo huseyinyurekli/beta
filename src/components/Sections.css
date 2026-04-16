@@ -15,7 +15,7 @@
 .insight-card h2,
 .todo-card h3,
 .empty-state h3 {
-  font-family: Georgia, "Times New Roman", serif;
+  font-family: var(--font-main);
   letter-spacing: -0.03em;
 }
 
